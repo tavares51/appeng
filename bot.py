@@ -6,7 +6,7 @@ from settings import ASSISTANT_ID, OPENAI_API_KEY
 def process_message(message:str):
     load_dotenv()
     client = OpenAI()
-    client.api_key = os.getenv("OPENAI_API_KEY")
+    client.api_key = OPENAI_API_KEY#os.getenv("OPENAI_API_KEY")
     assistant_id = ASSISTANT_ID
     thread = client.beta.threads.create()
     message = client.beta.threads.messages.create(
