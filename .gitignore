@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv
+.env/
+.env.*  # Variáveis de ambiente (como .env.dev)
+.env
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Test outputs
+htmlcov/
+coverage.xml
+.cache/
+.pytest_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Streamlit specific
+.streamlit/config.toml
+
+# Jupyter Notebook checkpoints (caso use notebooks)
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+
+# FastAPI Swagger Cache
+.openapi.json
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# SQLite or other DB files
+*.sqlite3
+*.db
+
+# Others (ajustável)
+*.bak
+*.old
+*.tmp
